@@ -1,0 +1,28 @@
+{
+  "name": "snx-balance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "snxBalanceChecker": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://clementbalestrat@github.com/clementbalestrat/snx-balance.git"
+  },
+  "author": "Clement Balestrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clementbalestrat/snx-balance/issues"
+  },
+  "homepage": "https://github.com/clementbalestrat/snx-balance#readme",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "date-fns": "^2.15.0",
+    "ethers": "^5.0.8",
+    "synthetix": "^2.26.3"
+  }
+}
