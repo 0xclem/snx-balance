@@ -82,6 +82,8 @@ const getBalance = async ({key, wallets}) => {
   const soldAmount = totalOldBalance - correctedBalance;
 
   console.log('====================================');
+  console.log(`Total Escrowed Balance on March 13th: ${totalOldBalance} SNX`);
+  console.log('====================================');
   console.log(`Unlocked percentage: ${100 * unlockedPercentage}%`);
   console.log(`Unlocked Balance: ${vestedAmount} SNX`);
   console.log(`Number of wallets: ${wallets.length}`);
